@@ -1,0 +1,27 @@
+/* ul,p{
+    color:green;
+} */
+li{
+    list-style-type:circle;
+}
+.class1{
+    background-color:yellow;
+    font-weight:900;
+}
+h1.class2{
+    background-color:navy;
+    color:red;
+    text-align:center;
+    font-weight:bolder;
+}
+li > em{
+    color:brown;
+}
+a:hover{
+    color:blue;
+    background-color:yellow;
+    text-decoration:line-through;                          
+}
+.a .b{
+    color:pink;
+}

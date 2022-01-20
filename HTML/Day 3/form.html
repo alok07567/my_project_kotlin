@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px;
+        }
+
+        .h1 {
+            font-weight: bolder;
+            font-size: 42px;
+            color: blue;
+            /* text-align: center; */
+        }
+
+        .h2 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .h3 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .right {
+            color: rgb(42, 128, 248);
+            text-align: right;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 40px;
+            box-shadow: 2px 2px 7px rgb(167, 163, 163);
+            width: 50%;
+            text-align: left;
+        }
+
+
+        input[type="email"],
+        input[type="password"],
+        input[type="submit"] {
+            padding: 5px;
+            width: 100%;
+            /* border:1px solid gray; */
+            border: none;
+            box-shadow: 1px 1px 10px rgb(140, 140, 144);
+            ;
+        }
+
+        input[type="submit"] {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .f {
+            text-align: right;
+            z-index: 4;
+        }
+
+        .f1 {
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <span class="h1">Stackfindover</span>
+
+        <div class="container">
+            <p class="h2">Sign in to your account</p>
+
+            <span class="h3">Email</span>
+            <br>
+            <input type="email" placeholder="abc@example.com">
+            <br><br>
+
+            <span class="h3">Password</span>
+            <!-- <span class="h3 right">Forgot your password</span> -->
+            <br>
+            <input type="password">
+            <br><br>
+
+            <input type="checkbox">
+            <span class="h3 f1">Stay signed in for a week</span>
+            <span class="f">
+                <a href="" class="h3">Forgot your password</a></span>
+
+
+
+            <input type="submit" value="continue">
+            <br><br>
+
+            <center>
+                <a href="" class="h3">Use single signed-on (Google) instead</a>
+            </center>
+        </div>
+    </center>
+</body>
+
+</html>

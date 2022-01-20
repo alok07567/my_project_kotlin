@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment Form</title>
+</head>
+<body>
+    <h1 style="border:5px solid red">Payment Form</h1>
+    <h2>---Candidate Details---</h2>
+    <hr style="color:blue">
+    <p><b>Name: </b><input type="text" name="name" id="name" value=""> </p>
+    <fieldset>
+        <legend>Gender:</legend>
+        Male: <input type="radio" name="gender" value="male" id="male">
+        Female: <input type="radio" name="gender" value='female' id="female">
+        Other: <input type="radio" name="gender" value="other" id="other">
+    </fieldset>
+    <p><b>Address: </b><textarea type="text" name="address" id="address" rows="5" cols="100"></textarea> </p>
+    <p><b>Email: </b><input type="email" name="email" value="" id="email"> </p>
+    <p><b>Pin code</b><input type="text" name="pincode" id="pincode" value=""> </p>
+    <hr style="color:blue">
+
+    <h2>---Payment Details---</h2>
+    <hr style="color:blue">
+    <select>
+        <option name="cardtype" value="" id="cardtype">--Select your Card type</option>
+        <option name="visa" value="visa" id="visa">Visa</option>
+        <option name="mastercard" value="mastercard" id="mastercard">Master card</option>
+        <option name="rupay" value="rupay" id="ruopay">Rupay</option>
+    </select>
+    <p><b>Expiry Date: </b><input type="date" name="expirydate" value=""> </p>
+    <p><b>CVV: </b><input type="text" name="cvv" value=""> </p>
+    <input type="submit" name="submit" value="Pay Now">
+
+    
+    
+</body>
+</html>

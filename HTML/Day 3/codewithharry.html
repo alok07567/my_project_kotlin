@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="alok.php">
+      <div>
+        <label for="name"><b>Name: </b></label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <br>
+      <div>
+        <label for="bonus"><b>Bonus: </b></label>
+        <input type="number" name="bonus" id="bonus" />
+      </div>
+      <br>
+      <div>
+        <label for="eligibility"><b>Are u Eligible for this: </b></label>
+        <input type="checkbox" checked name="eligibility" id="eligibility" />
+      </div>
+      <br>
+      <div>
+        <fieldset width="25%" height="25%">
+          <legend><label for="male">Gender</label></legend>
+          Male: <input type="radio" name="gender" id="male" /> 
+          Female:<input type="radio" name="gender" id="female" /> 
+          Other:<input type="radio" name="gender" id="other" />
+        </fieldset>
+      </div>
+      <br>
+      <div>
+          <select>
+              <option name="car" value="">--Select your car--</option>
+              <option name="car" value="A=audi">Audi</option>
+              <option name="car" value="mercedes">Mercedes</option>
+              <option name="car" value="bugati">Bugati</option>
+              <option name="car" value="bmw">BMW</option>
+          </select>
+      </div>
+      <br>
+      <div>
+          <label for="bio">Write your BIo...</label>
+          <br>
+          <textarea name="bio" id="bio" rows="5" cols="100"></textarea>
+      </div>
+      <br>
+      <div>
+          <label for="date">Enter date of taking your CAR...</label>
+          <input type="date" name="date" id="date">
+      </div>
+      <br>
+      <div>
+          <input type="submit" value="Submit Now">
+      </div>
+      <br>
+      <div>
+          <input type="reset" value="Reset">
+      </div>
+      <br>
+    </form>
+    <hr>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BMzui1rBvjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" muted loop></iframe>
+    <hr>
+    <hr>
+    
+  </body>
+</html>

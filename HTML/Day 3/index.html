@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="backend.php">
+    <h1 style="color:red; border:5 px solid green">Payment Form</h1> 
+    <hr style="color:navy">
+    <hr style="color:navy">
+    <hr style="color:navy">
+    <h2>Candidate Details</h2>
+    <hr>
+    <p><b>Candidate Name: </b><input type="text" name="name" value=""> </p>
+    <fieldset>
+        <legend>Gender</legend>
+        Male: <input type="radio" name="gender" id="male" value="male">
+        Female: <input type="radio" name="gender" id="female" value="female">
+        Other: <input type="radio" name="gender" id="other" value="other">
+    </fieldset>
+    <p><b>Address: </b> <textarea cols="100" rows="5" name="address" value=""></textarea> </p>
+    <p><b>Pincode: </b><input type="text" name="pincode" id="pincode" value=""> </p>
+    <hr style="color:blue">
+
+    <h2>Payment Details</h2>
+    <select>
+        <option name="cardtype" value="" id="cardtype">--Select your CARD--</option> 
+        <option name="visa" value="visa" id="visa">-visa</option> 
+        <option name="rupay" value="rupay" id="rupay">rupay</option> 
+        <option name="mastercard" value="mastercard" id="mastercard">mastercard</option> 
+    </select>
+    <input type="submit" name="submit" value="pay now">
+    </form>
+</body>
